@@ -1,0 +1,45 @@
+{
+    "Etapa 0 Inicio": {
+        "E0_actividad_0": "Determinar titulo del proyecto",
+        "E0_actividad_1": "Determinar objetivo del proyecto",
+        "E0_actividad_2": "Determinar sector del proyecto",
+        "E0_actividad_3": "Determinar giro del proyecto",
+        "E0_actividad_4": "Determinar PIB del sector",
+        "E0_actividad_5": "Determinar Mercado Objetivo",
+        "E0_actividad_6": "Desarrollo del Benchmarking",
+        "E0_actividad_7": "Calculo de la demanda",
+        "E0_actividad_8": "Selección del lider del proyecto",
+        "E0_actividad_9": "Estudio de Mercado",
+        "E0_actividad_10": "Estudio Técnico",
+        "E0_actividad_11": "Estudio Economico",
+        "E0_actividad_12": "Estudio Financiero",
+        "E0_actividad_13": "Plan Operativo",
+        "E0_actividad_14": "Plan de Comercialización",
+        "E0_actividad_15": "Plan General de Trabajo"
+    },
+    "Etapa 1 Planeación": {
+        "E1_actividad_0": "Acta Constitución del Proyecto",
+        "E1_actividad_1": "Gestión de interesados",
+        "E1_actividad_2": "Plan de Dirección del Proyecto",
+        "E1_actividad_3": "Gestión del Alcance",
+        "E1_actividad_4": "Diagrama EDT",
+        "E1_actividad_5": "Verificación del Alcance",
+        "E1_actividad_6": "Control del Alcance",
+        "E1_actividad_7": "Cronograma"
+    },
+    "Etapa 2 Ejecución": {},
+    "Etapa 3 Verificación y Control": {
+        "E3_actividad_0": "Checklist de Verificación de Ruta Critica",
+        "E3_actividad_1": "Checklist de Verificación de Actividades de Holgura",
+        "E3_actividad_2": "Control y Seguimiento",
+        "E3_actividad_3": "Control de Cambios"
+    },
+    "Etapa 4 Cierre": {
+        "E4_actividad_0": "Resultados",
+        "E4_actividad_1": "Control de Costos",
+        "E4_actividad_2": "Evaluación Económica",
+        "E4_actividad_3": "Riesgos",
+        "E4_actividad_4": "Acta de Cierre del Proyecto"
+    }
+}
+

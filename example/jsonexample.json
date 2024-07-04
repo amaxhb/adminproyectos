@@ -1,0 +1,14 @@
+{
+    "proyecto" : {
+        "idea" : {
+            "titulo" : "Desarrollo de un simulador de exámenes simulacro para preparación de exámenes a nivel superior ",
+            "objetivo": "El objetivo de este proyecto es desarrollar una plataforma interactiva y educativa que ofrecerá exámenes simulacro para aspirantes a nivel superior, en línea, programada en visual studio code, la cual será accesible desde cualquier dispositivo con conexión a internet, basada en las necesidades educativas de los jóvenes aspirantes a nivel superior y abordando las áreas de estudio clave para los exámenes de ingreso",
+            "sector": "Tecnologías de la Información y Comunicación",
+            "PIB": "7.4%",
+            "descripcion": "El proyecto \"Diseño de un simulador para Exámenes simulacro para aspirantes a nivel superior\" busca proporcionar a los jóvenes aspirantes a nivel superior de educación una plataforma interactiva y educativa que les permita practicar de manera efectiva para los exámenes de ingreso. La plataforma estará diseñada para ofrecer una experiencia de aprendizaje completa y personalizada, abordando diferentes áreas de estudio clave para el éxito. El simulador ofrecerá una amplia gama de exámenes simulacro que cubrirán todas las áreas de estudio relevantes para los aspirantes. Cada área contará con 5 tipos de exámenes cada uno con variedad de preguntas y ejercicios cuidadosamente seleccionados para reflejar fielmente los tipos de preguntas que pueden encontrarse en los exámenes reales. La plataforma también ofrecerá características adicionales para mejorar la experiencia del usuario, como son distintos tips para fortalecer su aprendizaje"
+        },
+        "etapa0" : {
+            
+        } 
+    }
+}

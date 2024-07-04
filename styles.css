@@ -1,0 +1,515 @@
+/* Importaciones de fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+/* Estilos generales */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: #f4f4f4;
+    color: #2e2e2e;
+    border: solid 1px #3d2424;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    font-size: 16px; /* Tamaño de fuente general para el body */
+}
+
+header {
+    width: 100%;
+    background-color: #cae9f0;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px; /* Tamaño de fuente para el header */
+}
+
+nav {
+    width: 100%;
+    text-align: center;
+    font-size: 16px; /* Tamaño de fuente para la navegación */
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+nav ul li {
+    margin-right: 30px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    background-color: #007BFF;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+nav ul li:hover {
+    background-color: #370f4d;
+}
+
+#verticalNav {
+    background-color: #4f4f4f;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    font-size: 12px; /* Tamaño de fuente para el menú de navegación vertical */
+}
+
+#verticalNav ul {
+    flex-direction: column;
+}
+
+#verticalNav ul li {
+    margin-bottom: 10px;
+    background-color: #6b6b6b;
+}
+
+#verticalNav ul li:hover {
+    background-color: #3b3232;
+    cursor: pointer;
+}
+
+main {
+    padding: 15px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    font-size: 12px; /* Tamaño de fuente para el contenido principal */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 768px;
+}
+
+table, section, article, main header, main footer, form {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #777;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    font-size: 16px;
+    min-width: 90%;
+    
+}
+
+section, article, main header, main footer, form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    width: 100%;
+    padding: 20px;
+    background-color: #4f4f4f;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    font-size: 12px; /* Tamaño de fuente para el footer */
+}
+
+table, main section article table, article table, form {
+    min-width: 80%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 15px; /* Tamaño de fuente para las tablas */
+}
+
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+    font-size: 15px; /* Tamaño de fuente para celdas de tabla */
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:nth-child(odd) {
+    background-color: #dae6fa;
+}
+
+
+
+th {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    font-size: 15px; 
+    border: 1px solid #ccc;
+    
+    /* Tamaño de fuente para encabezados de tabla */
+}
+
+
+textarea {
+    min-width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ced0fa;
+    color: #2e2e2e;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 14px; /* Tamaño de fuente para textarea */
+}
+
+article {
+    min-width: 80%;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 12px; /* Tamaño de fuente para botones */
+}
+
+button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#planOperativoTable {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#sectionProgramas {
+    display: grid;
+    grid-template-columns: 1fr 9fr;
+    grid-gap: 10px;
+    max-width: fit-content -10px;
+    align-items: start;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: color 0.3s ease, background-color 0.3s ease, text-shadow 0.3s ease;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+a:focus, a:hover {
+    color: #ffd700;
+    text-shadow: 0 0 5px #ffd700;
+}
+
+a:active {
+    color: #ffa500;
+    background-color: #f9f9f9;
+}
+
+p {
+    font-size: 16px; /* Tamaño de fuente para párrafos */
+    max-width: 80%;
+}
+
+/* Editable and Non-Editable Inputs */
+input[type="text"], input[type="password"], input[type="date"], input[type="email"], select, .input-editable, .select-editable{
+    padding: 5px;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 14px; /* Tamaño de fuente para inputs y selects */
+    font-weight: bold;
+}
+
+.input-editable, .select-editable {
+    cursor: text;
+    color: #2e2e2e;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.3);
+    background-color: #ced0fa;
+    text-align: center;
+
+
+}
+
+.input-non-editable {
+    border: 0px solid transparent;
+    cursor: not-allowed;
+    color: #000;
+    caret-color: transparent;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 12px; /* Tamaño de fuente para inputs no editables */
+    background-color: inherit;
+}
+
+.select-non-editable {
+    border: 0px solid transparent;
+    background-color: #2e2e2e;
+    cursor: not-allowed;
+    color: #000;
+    caret-color: transparent;
+    appearance: none;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-color: inherit;
+    font-size: 12px; /* Tamaño de fuente para selects no editables */
+}
+
+.input-non-editable:focus, .select-non-editable:focus {
+    outline: none;
+    
+}
+
+ul + ul {
+    margin-top: 10px;
+}
+
+/* 
+    message_error, message_success, message_alert
+*/
+
+.message_error, .message_success, .message_alert {
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px 10px;
+}
+
+.message_error {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.message_success {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.message_alert {
+    background-color: #ffc107;
+    color: #000;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1a7538;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background-color: #155e2d;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+
+#logout {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #dc3545;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 15px;
+
+}
+
+#logout:hover {
+    background-color: #c82333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* resposnsive */
+
+@media screen and (max-width: 768px) {
+    #verticalNav {
+        display: none;
+    }
+
+    #sectionProgramas {
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    table {
+        width: 100%;
+    }
+
+    #sectionProgramas {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* inputs y otros */
+
+    input[type="text"], input[type="password"], input[type="date"], input[type="email"], select, .input-editable, .select-editable {
+        width: 100%;
+    }
+
+    .input-editable, .select-editable {
+        text-align: left;
+    }
+
+    .input-non-editable, .select-non-editable {
+        text-align: left;
+    }
+
+    .input-non-editable, .select-non-editable {
+        width: 100%;
+    }
+
+    .input-editable, .select-editable {
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    .btn {
+        width: 100%;
+    }
+    
+
+    /* tablas */
+
+    table, main section article table, article table, form {
+        min-width: 100%;
+    }
+
+    th {
+        font-size: 12px;
+    }
+
+    td {
+        font-size: 12px;
+    }
+
+    /* mensajes */
+
+    .message_error, .message_success, .message_alert {
+        font-size: 12px;
+    }
+
+    /* botones */
+
+    button, .btn {
+        font-size: 12px;
+    }
+
+    #logout {
+        font-size: 12px;
+    }
+
+    /* footer */
+
+    footer {
+        font-size: 12px;
+    }
+
+    /* header */
+
+    header {
+        font-size: 12px;
+    }
+
+    /* navegación */
+
+    nav ul li {
+        padding: 5px 10px;
+    }
+}
+
+#DEDT {
+    /* DEDT es una tabla, quiero que todo se alinee hasta arriba y sobreescriba los estilos de la tabla */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    align-items: start;
+    justify-content: start;
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 0px transparent;
+    font-size: 16px;
+    
+
+
+
+    /* DEDT es una tabla, quiero que tenga un borde redondeado */
+
+}
+
+.DEDT {
+    border: 0px transparent;
+    padding: 10px;
+    background-color: #e7bceb;
+    font-size: 16px;
+    box-shadow: none;
+    border-radius: 30px;
+}
+
+.DEDT th {
+    background-color: #e4a920;
+    color: #fff;
+    padding: 10px;
+    font-size: 15px;
+    border: 0px transparent;
+    margin-top: 0;
+    text-align: center;
+}
+
+.DEDT td {
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 0;
+    background-color: none;
+    border: 0px transparent;
+}
+
+.DEDT tbody {
+    border-radius: 30px;
+}
+
+.DEDT tr {
+    background-color: inherit;
+}
